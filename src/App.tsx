@@ -18,25 +18,25 @@ function App() {
          <HeaderSnack />
          <div className="px-8 md:px-32 lg:px-44">
             <Navbar />
-            <div className="md:my-44 2xl:relative flex flex-col items-center 2xl:block 2xl:flex-row">
+            <div className="md:my-14 xl:relative flex flex-col items-center xl:block xl:flex-row">
                <div className="flex gap-2 w-full">
-                  <p className="font-inter font-medium text-[1.125rem]">Hey, Everyone</p>
+                  <p className="font-inter font-medium text-[1.2rem]">Hey, Everyone</p>
                   <img src={HiIcon} alt="hi-icon" />
                </div>
-               <div className="2xl:max-w-[60%] tracking-[0.75px] 2xl:-tracking-[2] xl:leading-[6rem] text-start my-2 ">
-                  <p className="font-inter text-[1.75rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] 2xl:text-[5rem] font-semibold">
+               <div className="xl:max-w-[60%] text-start my-2 ">
+                  <p className="font-inter text-[1.75rem] sm:text-[2rem] md:text-[3rem] lg:text-[4rem] xl:text-[3rem] font-semibold tracking-[0.75px] xl:-tracking-[2] xl:leading-[5rem]">
                      Newsify is the email newsletter that works completely automated
                   </p>
                </div>
-               <div className="w-full 2xl:max-w-[33%] text-start my-2 flex flex-col gap-10">
+               <div className="w-full xl:max-w-[33%] text-start my-2 flex flex-col gap-10">
                   <p className="text-[1.375rem]">Track connections in real time. See who your community being lead by and find the most active</p>
                   <div className="flex justify-between gap-4">
                      <input type="text" className="px-4 w-[70%] py-3 border-gray-50 border-[1px] rounded-3xl outline-none" placeholder="Your email address" />
                      <button className="text-white-50 w-[30%] px-4 py-3 bg-blue-50 font-inter rounded-3xl md:text-[1rem] font-bold">Register</button>
                   </div>
                </div>
-               <div className="2xl:absolute 2xl:right-0 2xl:top-0 ">
-                  <img src={PhoneBrand} alt="phone-brand" className="w-[32rem]" />
+               <div className="xl:absolute xl:right-0 xl:top-0 ">
+                  <img src={PhoneBrand} alt="phone-brand" className="w-[28rem]" />
                </div>
             </div>
          </div>
